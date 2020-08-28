@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.c-header{
+    width: 1422px;
+    height: 100px;
+}
+.c-inner{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+.c-logo{
+    float: left;
+}
+.c-service{
+    float: right;
+}
+.c-body{
+    height: 650px;
+    background: url(../images/bg.jpg) no-repeat 0 0;
+    background-position: top center ;
+}
+.c-content {
+    width: 1000px;
+    height: 550px;
+    padding: 50px 20px;
+    /* background-color: hotpink; */
+    margin: 0 auto;
+}
+.c-right{
+    width: 358px;
+    height: 438px;
+    margin-left: 618px;
+    border: 1px solid #Ccc;
+    background-color: #fff;
+}
+.c-content-header{
+    width: 300px;
+    height: 50px;
+    padding: 0 30px;
+    /* background-color: wheat; */
+    line-height: 51px;
+    border-bottom: 1px solid #ccc;
+}
+.c-content-header .c-cn{
+    float: left;
+    font-size: 18px;
+    color: #666;
+}
+.c-content-header .c-cn a{
+    color: #666;
+}
+
+.c-content-header .c-cm{
+    float: right;
+    font-size: 18px;
+    color: #f10180
+
+}
+.c-content-header .c-cm .uu{
+    color: #f10180;
+    cursor: pointer;
+}
+.c-content-body{
+    padding: 30px;
+}
+.c-content-body .ik{
+    width: 260px;
+    height: 46px;
+    padding-left: 40px;
+    line-height: 46px;
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.c-content-body .ik .phone {
+    width: 250px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    outline: none;
+}
+.c-content-body .ik .icon-shouji{
+    opacity: .2;
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    z-index: 1;
+    font-size: 26px;
+}
+.c-content-body .il{
+    width: 260px;
+    height: 46px;
+    padding-left: 40px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.c-content-body .il .mes{
+    width: 130px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    outline: none;
+    /* float: left; */
+}
+
+.c-content-body .il .icon-xinxi{
+    opacity: .2;
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    z-index: 1;
+    font-size: 26px;
+}
+
+.c-right .too{
+    width: 300px;
+    height: 19px;
+    margin-left: 30px;
+}
+
+.c-right .too .ch{
+    font-size: 14px;
+    height: 19px;
+    float: left;
+}
+.c-right .too .cc{
+    font-size: 12px;
+    height: 19px;
+    float: right;
+}
+.c-right .button{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 22px;
+    margin-left: 30px;
+    background-color: #f10180;
+}
+.c-right .button a{
+    color: white;
+}
+.c-right .foot{
+    width: 310px;
+    height: 24px;
+    margin-top: 22px;
+    font-size: 14px;
+    margin-left: 30px;
+    line-height: 24px;
+}
+.foot .pp{
+    text-align: right;
+}
+.c-footer{
+    width: 1000px;
+    height: 78px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 78px;
+    color: #666;
+}
